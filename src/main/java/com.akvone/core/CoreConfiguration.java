@@ -21,7 +21,9 @@ public class CoreConfiguration implements SchedulingConfigurer {
     return scheduler;
   }
 
+  @Override
   public void configureTasks(ScheduledTaskRegistrar taskRegistrar) {
+    // Comment next line to get different behaviour
     taskRegistrar.setTaskScheduler(taskScheduler());
   }
 }
