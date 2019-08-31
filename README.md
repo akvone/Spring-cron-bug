@@ -1,2 +1,2 @@
 # Spring-cron-bug
-Comment `com.akvone.core.CoreConfiguration#configureTasks` and see different behaviour
+Comment `com.akvone.core.CoreConfiguration#configureTasks` to see a different behaviour
